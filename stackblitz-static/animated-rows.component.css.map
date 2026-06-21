@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/examples/animated-rows/animated-rows.component.css"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.animation-toolbar {\n  align-items: center;\n  background: #f6f9fc;\n  border: 1px solid #dbe4ef;\n  border-bottom: 0;\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n  padding: 10px;\n}\n\n.animation-toolbar button {\n  background: #ffffff;\n  border: 1px solid #cbd8e6;\n  border-radius: 4px;\n  color: #1d3d5c;\n  cursor: pointer;\n  font-weight: 700;\n  padding: 8px 12px;\n}\n\n.row-detail {\n  background: #f7fbff;\n  border-top: 1px solid #e1ebf5;\n  color: #36546e;\n  font-size: 13px;\n  padding: 12px 16px;\n}\n\n.animated-table-frame {\n  animation: table-refresh 180ms ease-out;\n}\n\n@keyframes table-refresh {\n  from {\n    opacity: 0.45;\n    transform: translateY(4px);\n  }\n\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAS;AACX;AAEA,CAAC;AACC,eAAa;AACb,cAAY;AACZ,UAAQ,IAAI,MAAM;AAClB,iBAAe;AACf,WAAS;AACT,aAAW;AACX,OAAK;AACL,WAAS;AACX;AAEA,CAXC,kBAWkB;AACjB,cAAY;AACZ,UAAQ,IAAI,MAAM;AAClB,iBAAe;AACf,SAAO;AACP,UAAQ;AACR,eAAa;AACb,WAAS,IAAI;AACf;AAEA,CAAC;AACC,cAAY;AACZ,cAAY,IAAI,MAAM;AACtB,SAAO;AACP,aAAW;AACX,WAAS,KAAK;AAChB;AAEA,CAAC;AACC,aAAW,cAAc,MAAM;AACjC;AAEA,WAHa;AAIX;AACE,aAAS;AACT,eAAW,WAAW;AACxB;AAEA;AACE,aAAS;AACT,eAAW,WAAW;AACxB;AACF;",
+  "names": []
+}

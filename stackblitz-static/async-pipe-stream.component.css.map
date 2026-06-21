@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/examples/async-pipe-stream/async-pipe-stream.component.css"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.stream-toolbar {\n  align-items: center;\n  background: #f6f9fc;\n  border: 1px solid #dbe4ef;\n  border-bottom: 0;\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n  padding: 10px;\n}\n\n.stream-toolbar div {\n  margin-right: auto;\n}\n\n.stream-toolbar span {\n  color: #587189;\n  display: block;\n  font-size: 11px;\n  font-weight: 700;\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n}\n\n.stream-toolbar strong {\n  color: #13283c;\n  display: block;\n  font-size: 20px;\n  margin-top: 2px;\n}\n\n.stream-toolbar button {\n  background: #ffffff;\n  border: 1px solid #cbd8e6;\n  border-radius: 4px;\n  color: #1d3d5c;\n  cursor: pointer;\n  font-weight: 700;\n  padding: 8px 12px;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAS;AACX;AAEA,CAAC;AACC,eAAa;AACb,cAAY;AACZ,UAAQ,IAAI,MAAM;AAClB,iBAAe;AACf,WAAS;AACT,aAAW;AACX,OAAK;AACL,WAAS;AACX;AAEA,CAXC,eAWe;AACd,gBAAc;AAChB;AAEA,CAfC,eAee;AACd,SAAO;AACP,WAAS;AACT,aAAW;AACX,eAAa;AACb,kBAAgB;AAChB,kBAAgB;AAClB;AAEA,CAxBC,eAwBe;AACd,SAAO;AACP,WAAS;AACT,aAAW;AACX,cAAY;AACd;AAEA,CA/BC,eA+Be;AACd,cAAY;AACZ,UAAQ,IAAI,MAAM;AAClB,iBAAe;AACf,SAAO;AACP,UAAQ;AACR,eAAa;AACb,WAAS,IAAI;AACf;",
+  "names": []
+}

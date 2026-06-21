@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/examples/http-client-data/http-client-data.component.css"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.api-toolbar {\n  align-items: center;\n  background: #f6f9fc;\n  border: 1px solid #dbe4ef;\n  border-bottom: 0;\n  display: flex;\n  gap: 12px;\n  justify-content: space-between;\n  padding: 10px;\n}\n\n.api-toolbar span {\n  color: #587189;\n  display: block;\n  font-size: 11px;\n  font-weight: 700;\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n}\n\n.api-toolbar strong {\n  color: #13283c;\n  display: block;\n  font-size: 20px;\n  margin-top: 2px;\n}\n\n.api-toolbar button {\n  background: #ffffff;\n  border: 1px solid #cdd9e5;\n  border-radius: 4px;\n  color: #1d3d5c;\n  cursor: pointer;\n  font-weight: 700;\n  padding: 8px 12px;\n}\n\n.error-message {\n  background: #fff5f5;\n  border: 1px solid #ffd6d6;\n  color: #982828;\n  margin: 0;\n  padding: 10px;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAS;AACX;AAEA,CAAC;AACC,eAAa;AACb,cAAY;AACZ,UAAQ,IAAI,MAAM;AAClB,iBAAe;AACf,WAAS;AACT,OAAK;AACL,mBAAiB;AACjB,WAAS;AACX;AAEA,CAXC,YAWY;AACX,SAAO;AACP,WAAS;AACT,aAAW;AACX,eAAa;AACb,kBAAgB;AAChB,kBAAgB;AAClB;AAEA,CApBC,YAoBY;AACX,SAAO;AACP,WAAS;AACT,aAAW;AACX,cAAY;AACd;AAEA,CA3BC,YA2BY;AACX,cAAY;AACZ,UAAQ,IAAI,MAAM;AAClB,iBAAe;AACf,SAAO;AACP,UAAQ;AACR,eAAa;AACb,WAAS,IAAI;AACf;AAEA,CAAC;AACC,cAAY;AACZ,UAAQ,IAAI,MAAM;AAClB,SAAO;AACP,UAAQ;AACR,WAAS;AACX;",
+  "names": []
+}
