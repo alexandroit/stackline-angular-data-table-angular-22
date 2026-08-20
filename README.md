@@ -2,7 +2,7 @@
 
 StackBlitz playground for the Angular 22 line of `@stackline/angular-data-table-component`.
 
-This project installs `@stackline/angular-data-table-component@22.0.0` against Angular `22.0.2`.
+This project installs `@stackline/angular-data-table-component@22.1.0` against Angular `22.1.3`.
 
 The examples are organized like a normal Angular app, with one folder and one component per feature:
 
@@ -80,7 +80,7 @@ Use this command when you specifically want the real Angular CLI dev server:
 npm run dev
 ```
 
-Angular 22 CLI requires Node `22.22.3+`, `24.15.0+`, or `26.0.0+`.
+Angular 22 CLI requires Node `22.22.3+`, `24.15.0+`, or `26.0.0+`. The committed preview remains available on older StackBlitz runtimes.
 
 ## StackBlitz
 

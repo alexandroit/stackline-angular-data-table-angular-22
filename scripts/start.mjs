@@ -42,13 +42,19 @@ function runAngularDevServer() {
   });
 }
 
-if (supportsAngular22Cli() && process.env.STACKLINE_STATIC_PREVIEW !== '1') {
+const forceStaticPreview = process.env.STACKLINE_STATIC_PREVIEW === '1';
+
+if (supportsAngular22Cli() && !forceStaticPreview) {
   console.log(`[stackline] Node ${process.versions.node} supports Angular 22 CLI. Starting ng serve.`);
   runAngularDevServer();
 } else {
-  console.log(
-    `[stackline] Node ${process.versions.node} is below Angular 22 CLI requirements. ` +
-      'Serving the committed StackBlitz preview build instead.'
-  );
+  if (forceStaticPreview) {
+    console.log('[stackline] Static preview requested. Serving the committed StackBlitz build.');
+  } else {
+    console.log(
+      `[stackline] Node ${process.versions.node} is below Angular 22 CLI requirements. ` +
+        'Serving the committed StackBlitz preview build instead.'
+    );
+  }
   serveStatic();
 }

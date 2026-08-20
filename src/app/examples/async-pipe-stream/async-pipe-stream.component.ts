@@ -20,7 +20,7 @@ export class AsyncPipeStreamExampleComponent extends TableExampleBase {
   }
 
   title = 'Async pipe stream';
-  summary = 'Bind a BehaviorSubject through the async pipe for push-style Angular 4 dashboards.';
+  summary = 'Bind a BehaviorSubject through the async pipe for push-style dashboards.';
   ticketColumns = this.demoData.getTicketColumns();
   rows$: Observable<any[]> = this.streamSubject.asObservable();
   currentRows: any[] = [];

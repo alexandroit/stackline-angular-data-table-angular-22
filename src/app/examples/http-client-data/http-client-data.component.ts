@@ -15,8 +15,8 @@ export class HttpClientDataExampleComponent extends TableExampleBase implements 
     super();
   }
 
-  title = 'Angular 4 HttpClient data';
-  summary = 'Load rows through the Angular 4.3+ HttpClient and pass them to the table as app-owned data.';
+  title = 'HttpClient data';
+  summary = 'Load rows through Angular HttpClient and pass them to the table as app-owned data.';
   orderColumns = this.demoData.getAdvancedColumns();
   orders: any[] = [];
   loading = false;
@@ -40,7 +40,7 @@ export class HttpClientDataExampleComponent extends TableExampleBase implements 
       },
       (error) => {
         this.loading = false;
-        this.errorMessage = 'The Angular 4 HttpClient request failed.';
+        this.errorMessage = 'The HttpClient request failed.';
         this.record('http error', {
           status: error && error.status ? error.status : 'unknown'
         });

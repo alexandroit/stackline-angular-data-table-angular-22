@@ -66,7 +66,7 @@ export var revenue = [
 export var longTextRows = [
   { id: 1, name: 'Migration plan', description: 'A longer operational note that should wrap cleanly instead of forcing the application layout to overflow in a confusing way.', owner: 'Maya' },
   { id: 2, name: 'Release checklist', description: 'The table keeps the responsive shell active while individual cells can opt into wrapping for readable admin screens.', owner: 'Theo' },
-  { id: 3, name: 'Customer export', description: 'This row intentionally carries enough text to show how Angular 4 consumers can protect dense dashboards.', owner: 'Iris' }
+  { id: 3, name: 'Customer export', description: 'This row carries enough text to demonstrate wrapping in dense dashboards.', owner: 'Iris' }
 ];
 
 export function formatTotal(row: any) {

@@ -15,7 +15,7 @@ export class VirtualRowsExampleComponent extends TableExampleBase {
   }
 
   title = 'Virtual rows';
-  summary = 'Render a window of a larger row set for heavy legacy screens.';
+  summary = 'Render a controlled window from a larger row set.';
   largeColumns = this.demoData.getLargeColumns();
   largeRows = this.demoData.buildLargeRows();
 

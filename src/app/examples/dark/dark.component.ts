@@ -15,7 +15,7 @@ export class DarkExampleComponent extends TableExampleBase {
   }
 
   title = 'Dark theme';
-  summary = 'The legacy line keeps the same theme input.';
+  summary = 'Use the built-in dark theme while preserving the same table behavior.';
   revenueColumns = this.demoData.getRevenueColumns();
   revenue = this.demoData.getRevenue();
 
