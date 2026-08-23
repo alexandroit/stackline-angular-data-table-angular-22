@@ -20,6 +20,7 @@ jobs:
           cache: npm
       - run: npm install --global npm@10.9.8
       - run: npm ci
+      - run: npm run test:server
       - run: npm run build
       - run: diff -qr dist/stackline-angular-data-table-twenty-two/browser stackblitz-static
       - run: npm audit --audit-level=low
