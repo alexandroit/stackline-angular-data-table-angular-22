@@ -99,3 +99,8 @@ https://stackblitz.com/github/alexandroit/stackline-angular-data-table-angular-2
 - Docs: https://alexandro.net/docs/angular/angular-data-table-component/angular-22/
 - npm: https://www.npmjs.com/package/@stackline/angular-data-table-component
 - GitHub package repo: https://github.com/alexandroit/angular-data-table-component
+
+## License
+
+The playground source is available under the [MIT License](LICENSE).
+Dependencies retain their respective licenses.
