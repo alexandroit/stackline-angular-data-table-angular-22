@@ -26,9 +26,9 @@
     "@stackline/angular-data-table-component": "22.1.0"
   },
   "devDependencies": {
-    "@angular/build": "22.1.5",
-    "@angular/cli": "22.1.5",
-    "@angular/compiler-cli": "22.1.3",
+    "@angular/build": "22.1.6",
+    "@angular/cli": "22.1.6",
+    "@angular/compiler-cli": "22.1.4",
     "prettier": "^3.9.6",
     "typescript": "6.0.3",
     "@types/node": "22.20.1"
